@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-12T15:43:17.104Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36" etag="fZG-gSHUolPQEYLw7hQG" version="12.9.11" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-12T15:50:41.868Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36" etag="_qQBVW5kkH3CPdidbWMa" version="12.9.11" type="github">
   <diagram id="PfnLZ4Yy9IKL7zOPjLlb" name="第 1 页">
-    <mxGraphModel dx="876" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1031" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,14 +28,44 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="S57TjvRWnyw7B0JyHSiT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1bm16h6rQD7hzpxAUaoz-5" target="S57TjvRWnyw7B0JyHSiT-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="330" />
+              <mxPoint x="300" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1bm16h6rQD7hzpxAUaoz-5" value="准备场景" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="300" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="S57TjvRWnyw7B0JyHSiT-4" value="启动AI待机模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S57TjvRWnyw7B0JyHSiT-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1bm16h6rQD7hzpxAUaoz-6" target="S57TjvRWnyw7B0JyHSiT-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="1170" />
+              <mxPoint x="420" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1bm16h6rQD7hzpxAUaoz-6" value="战斗场景" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S57TjvRWnyw7B0JyHSiT-1" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;启动AI战斗模块&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S57TjvRWnyw7B0JyHSiT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1bm16h6rQD7hzpxAUaoz-7" target="S57TjvRWnyw7B0JyHSiT-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="1400" />
+              <mxPoint x="300" y="1170" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="1bm16h6rQD7hzpxAUaoz-7" value="结算场景" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="1270" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="1380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1bm16h6rQD7hzpxAUaoz-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1bm16h6rQD7hzpxAUaoz-10" target="1bm16h6rQD7hzpxAUaoz-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -169,6 +199,15 @@
         </mxCell>
         <mxCell id="1bm16h6rQD7hzpxAUaoz-42" value="利用position创造棋盘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1010" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S57TjvRWnyw7B0JyHSiT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S57TjvRWnyw7B0JyHSiT-6" target="S57TjvRWnyw7B0JyHSiT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S57TjvRWnyw7B0JyHSiT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S57TjvRWnyw7B0JyHSiT-6" target="S57TjvRWnyw7B0JyHSiT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S57TjvRWnyw7B0JyHSiT-6" value="AI模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
